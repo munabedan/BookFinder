@@ -1,41 +1,41 @@
 {
   "project_info": {
-    "project_number": "582115210007",
-    "project_id": "appandup-2be33",
-    "storage_bucket": "appandup-2be33.appspot.com"
+    "project_number": "1026280726013",
+    "project_id": "app-and-up-54f07",
+    "storage_bucket": "app-and-up-54f07.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:582115210007:android:7a2a89b0784cdd7387bd52",
+        "mobilesdk_app_id": "1:1026280726013:android:d87f2235942ac2c4c58d94",
         "android_client_info": {
           "package_name": "com.appandup.books"
         }
       },
       "oauth_client": [
         {
-          "client_id": "582115210007-aq1615ihpdfdc17vtsh85f0sfpfvpt46.apps.googleusercontent.com",
+          "client_id": "1026280726013-rjvcpsvdeaoqnv5ufujvo9hjiq61adq7.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.appandup.books",
-            "certificate_hash": "92e5051e47d2dbc9045abf4eb431edfd292f4ca3"
+            "certificate_hash": "fb0dff24622244858a60c0133361795dacc71e16"
           }
         },
         {
-          "client_id": "582115210007-aemoe7lkph3dta2jqarjqad1kmjbr9tp.apps.googleusercontent.com",
+          "client_id": "1026280726013-cfmgftrh8vato7cvuflv8ns127ui8r0n.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDuer8mxg7vD50J0rAO-4szdtyUxNzxWZY"
+          "current_key": "AIzaSyB8cf6RiyGKz_wTwxJjf4pUAJv_OjZRqTg"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "582115210007-aemoe7lkph3dta2jqarjqad1kmjbr9tp.apps.googleusercontent.com",
+              "client_id": "1026280726013-cfmgftrh8vato7cvuflv8ns127ui8r0n.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

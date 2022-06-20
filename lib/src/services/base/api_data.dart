@@ -3,7 +3,7 @@
 class APIData {
   static const host = 'www.googleapis.com';
   static const String scheme = 'https';
-  static const apiKey = 'AIzaSyBunTC-wpcvv9A6Ou_7ydbkGOvvV9cwvBo';
+  static const apiKey = 'AIzaSyB8cf6RiyGKz_wTwxJjf4pUAJv_OjZRqTg';
 
   static Uri baseUri() => Uri(scheme: scheme, host: host, path: '');
 

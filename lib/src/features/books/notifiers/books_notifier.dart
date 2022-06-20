@@ -14,6 +14,9 @@ class BooksNotitier extends BaseChangeNotifier {
   final Reader _read;
 
   late List<Book> _books;
+
+
+
   List<Book> get books => _books;
 
   int _currentPage = 1;

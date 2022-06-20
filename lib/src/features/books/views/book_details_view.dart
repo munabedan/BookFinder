@@ -35,12 +35,9 @@ class BookDetailsView extends StatelessWidget {
 
               return IconButton(
                 onPressed: () {
-                  final FavoriteBook fBook =
-                      ModelConverter.toFavoriteBook(book);
+                  final FavoriteBook fBook = ModelConverter.toFavoriteBook(book);
 
-                  context
-                      .read(favoriteBooksNotifierProvider(book.id))
-                      .addOrRemoveFromFavorite(fBook);
+                  context.read(favoriteBooksNotifierProvider(book.id)).addOrRemoveFromFavorite(fBook);
                 },
                 icon: notifier.isFavorite
                     ? const Icon(Icons.favorite)

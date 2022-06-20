@@ -89,6 +89,7 @@ class BookList extends HookWidget {
 
   @override
   Widget build(BuildContext context) {
+
     if (books.isNotEmpty) {
       return RefreshIndicator(
         onRefresh: () async => context.refresh(favoriteBooksProvider),
@@ -104,6 +105,7 @@ class BookList extends HookWidget {
           ),
           itemCount: books.length,
           itemBuilder: (context, index) {
+
             return BookListItem(book: books[index]);
           },
         ),
@@ -129,6 +131,9 @@ class BookListItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+
+
     return Container(
       padding: const EdgeInsets.all(Dimensions.small),
       decoration: BoxDecoration(
@@ -165,9 +170,11 @@ class BookListItem extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 const Spacer(flex: 3),
-                book.authors == null
-                    ? const Spacing.empty()
-                    : Text(book.authors![0]),
+                //book.authors == null ? :
+
+                book.authors == null ? Text("not available") : Text(book.authors![0]),
+
+
                 const Spacer(),
                 Text(
                   book.title,

@@ -8,7 +8,7 @@ class Pill extends StatelessWidget {
 
   const Pill({
     Key? key,
-    this.width = 108,
+    this.width = 100,
     required this.text,
   }) : super(key: key);
 
@@ -28,7 +28,7 @@ class Pill extends StatelessWidget {
         child: Text(
           text,
           style: TextStyle(
-            fontSize: 12,
+            fontSize: 8,
             color: Theme.of(context).colorScheme.secondary,
           ),
         ),
